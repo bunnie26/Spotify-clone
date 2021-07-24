@@ -1,10 +1,10 @@
 import React from "react";
-import "./SongName.css";
+import "./SongRow.css";
 
 function SongRow({ track }) {
   return (
     <div className="songRow">
-      <img src={track.album.images[0].url} />
+      <img classname="songRow__album" src={track.album.images[0].url} />
       <div className="songRow__info">
         <h1>{track.name}</h1>
         <p>
@@ -16,4 +16,4 @@ function SongRow({ track }) {
   );
 }
 
-export default SongRow;
+export default SongRow;   

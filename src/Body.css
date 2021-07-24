@@ -3,7 +3,9 @@
   color: white;
   height: 100vh;
   padding: 30px;
-  background: linear-gradient(rgb(80, 40, 240), rgba(0, 0, 0, 1));
+  overflow-y: overlay;
+  overflow:none;
+  background: linear-gradient(rgb(80, 40, 240), rgb(4, 3, 90), rgba(0, 0, 0, 1));
 }
 
 .body__info {

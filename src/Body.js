@@ -27,9 +27,10 @@ function Body({ spotify }) {
           <FavoriteIcon fontSize="large" />
           <MoreHorizIcon />
         </div>
-        {discover_weekly?.tracks.items.map((item) => {
-          <SongRow track={item.track} />;
-        })}
+        {discover_weekly?.tracks.items.map((item) => (
+          console.log(item),
+        <SongRow track={item.track} />
+  ))}
       </div>
     </div>
   );
