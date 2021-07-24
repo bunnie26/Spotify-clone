@@ -1,7 +1,54 @@
 .body {
-  flex: 0.8;
+  flex: 0.82;
   color: white;
   height: 100vh;
   padding: 30px;
   background: linear-gradient(rgb(80, 40, 240), rgba(0, 0, 0, 1));
+}
+
+.body__info {
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+}
+.body__infoText {
+  flex: 1;
+}
+.body__infoText > h1 {
+  font-size: 72px;
+  margin-bottom: 10px;
+  font-weight: 900;
+}
+.body__infoText > p {
+  font-size: 14px;
+}
+.body__info > img {
+  height: 15vw;
+  margin: 0 20px;
+  box-shadow: 0 4px 60px rgba(0, 0, 0, 0.6);
+}
+.body__icons {
+  display: flex;
+  align-items: center;
+}
+.body__icons > .MuiSvgIcon-root {
+  margin-right: 25px;
+}
+.body__icons > .body__shuffle {
+  font-size: 70px !important;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  transition: 100ms transform ease-in;
+  color: #1db954;
+  /* background-color: white; */
+  /* height: 70px;
+  border-radius: 50%;
+  background-size:auto; */
+}
+.body__shuffle:hover {
+  transform: scale(1.08);
+}
+.body__songs {
+  margin: 20px -30px;
 }

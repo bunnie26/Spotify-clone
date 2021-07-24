@@ -1,7 +1,7 @@
 .sidebarOption {
   display: flex;
-  color: grey;
-  height: 40px;
+  color: #b3b3b3;;
+  height: 35px;
   cursor: pointer;
   transition: 200ms color ease-in;
   align-items: center;
@@ -15,5 +15,6 @@
 .sidebarOption > p {
   margin-top: 10px;
   margin-left: 20px;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: 500;
 }
